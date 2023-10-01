@@ -10,53 +10,214 @@
     <!-- === === === === === === === ===  -->
     <!-- header/navigation === === === === === ===  === === === === === -->
     <!-- === === === === === === === ===  -->
-    <div class="my-3 text-gray-600">
-      <div class="container flex items-center justify-between px-6 mx-auto lg:px-0">
-      <!-- left header section -->
-      <div class="flex items-center space-x-4">
-      <a href="#" class="text-2xl font-bold text-teal-800">Beginner tailwind</a>
-      <a href="#" class="hidden lg:inline-block hover-text-gray-900">About</a>
-      <a href="#" class="hidden lg:inline-block hover-text-gray-900">What you'll learn</a>
-      <a href="#" class="hidden lg:inline-block hover-text-gray-900">Pricing</a>
-      <a href="#" class="hidden lg:inline-block hover-text-gray-900">FAQ</a>
-    </div>
-      <!-- right header section -->
-      <div class="space-x-4">
-      <a href="#" class="hover:text-gray-900">Login</a>
-      <a href="#" class="hidden p-3 text-purple-700 bg-purple-200 rounded shadow lg:inline-block hover:text-purple-600 hover:bg-purple-400 hover:shadow-xl ">Get the course</a>
-    </div>
-    </div>
-  </div>
-    <!-- === === === === === === === ===  -->
-    <!-- hero === === === === === ===  === === === === === -->
-    <!-- === === === === === === === ===  -->
-    <div>
-      <div class="container px-6 py-24 mx-auto text-center lg:px-0">
-        <h1 class="py-5 mb-4 text-6xl font-extrabold text-center py-auto">
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-teal-500">Beginner</span>
-          <span class="text-transparent bg-clip-text bg-gradient-to-r  from-teal-500 to via-purple-600 bg-purple-500">tailwind</span>
+    <div class="bg-gradient-to-br from-white to-gray-300 pt-2">
+      <!-- Left circle -->
+      <div class="absolute top-0 left-0 translate-x-4 translate-y-4">
+        <div
+          class="absolute bg-gradient-to-br from-teal-100 to-teal-200 w-64 h-64 rounded-full opacity-50"
+        ></div>
+        <div
+          class="absolute ml-10 mt-10 bg-gradient-to-br from-purple-100 to-purple-200 w-64 h-64 rounded-full opacity-50"
+        ></div>
+        <div
+          class="absolute ml-24 mt24 bg-gradient-to-br from-red-100 to-red-200 w-64 h-64 rounded-full opacity-50"
+        ></div>
+      </div>
 
-        </h1>
-        <p class="mb-8 text-2xl text-gray-700">Make good design quickly. All without a signle line of custom css</p>
-        <a href="#" class="inline-block mb-32 py-3 px-12 rounded text-purple-100 shadow-lg bg-gradient-to-br from-purple-500 to-purple-700 text-lg tracking-wide font-bold
-        hover:to-purple-600 hover:shadow-2xl transition duration-300 hover:text-white">Get the course</a>
-        <div class="relative">
-        <img src="https://i.imgur.com/wysbBMS.png" alt="teaser image">
-        <img src="https://i.imgur.com/dyPdz5n.png" title="source: imgur.com" />
+      <!-- Right circle -->
+      <div
+        class="hidden lg:block absolute top-0 right-0 mr-48 transform -translate-x-64 translate-y-64"
+      >
+        <div
+          class="absolute bg-gradient-to-br from-teal-100 to-teal-200 w-64 h-64 rounded-full opacity-50"
+        ></div>
+        <div
+          class="absolute ml-10 mt-10 bg-gradient-to-br from-purple-100 to-purple-200 w-64 h-64 rounded-full opacity-50"
+        ></div>
+        <div
+          class="absolute ml-24 mt24 bg-gradient-to-br from-red-100 to-red-200 w-64 h-64 rounded-full opacity-50"
+        ></div>
+      </div>
 
-        <div class="absolute top-0 right-0 transform translate-x-4 -translate-y-4 bg-yellow-100">
-          <p class="">We'll create BeginnerTailwind.com, c'est le site sur lequel nous sommes maintenant.</p>
-          <p> We'll do it without a single line of css</p>
+      <!-- Navigation -->
+
+      <div class="relative text-gray-600">
+        <div
+          class="container flex items-center justify-between px-6 mx-auto lg:px-0"
+        >
+          <!-- left header section -->
+          <div class="flex items-center space-x-4">
+            <a href="#" class="text-2xl font-bold text-teal-800"
+              >Beginner tailwind</a
+            >
+            <a href="#" class="hidden lg:inline-block hover-text-gray-900"
+              >About</a
+            >
+            <a href="#" class="hidden lg:inline-block hover-text-gray-900"
+              >What you'll learn</a
+            >
+            <a href="#" class="hidden lg:inline-block hover-text-gray-900"
+              >Pricing</a
+            >
+            <a href="#" class="hidden lg:inline-block hover-text-gray-900"
+              >FAQ</a
+            >
+          </div>
+          <!-- right header section -->
+          <div class="space-x-4">
+            <a href="#" class="hover:text-gray-900">Login</a>
+            <a
+              href="#"
+              class="hidden p-3 text-purple-700 bg-purple-200 rounded shadow lg:inline-block hover:text-purple-600 hover:bg-purple-400 hover:shadow-xl transition duration-300"
+              >Get the course</a
+            >
+          </div>
         </div>
       </div>
+      <!-- === === === === === === === ===  -->
+      <!-- hero === === === === === ===  === === === === === -->
+      <!-- === === === === === === === ===  -->
+      <div class="relative">
+
+        <!-- Purple bar -->
+        <div class="absolute bottom-0 h-64 inset-x-0 bg-purple-700"></div>
+        <div class="container px-6 py-24 mx-auto lg:px-0 text-center">
+          <h1
+            class="py-5 mb-4 text-5xl lg:text-6xl font-extrabold text-center py-auto"
+          >
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-teal-500"
+              >Beginner</span
+            >
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to via-purple-600 bg-purple-500"
+              >tailwind</span
+            >
+          </h1>
+          <p class="mb-8 text-lg lg:text-2xl text-gray-700">
+            Make good design quickly. All without a signle line of custom css
+          </p>
+          <a
+            href="#"
+            class="inline-block mb-16 lg:mb-32 py-3 px-12 rounded text-purple-100 shadow-lg bg-gradient-to-br from-purple-500 to-purple-700 text-lg tracking-wide font-bold hover:to-purple-600 hover:shadow-2xl transition duration-300 hover:text-white"
+            >Get the course</a
+          >
+          <div class="relative">
+            <img
+              src="https://i.imgur.com/wysbBMS.png"
+              alt="teaser image"
+              class="rounded-lg shadow-2xl border-4 border-purple-400"
+            />
+
+            <div
+              class="lg:absolute top-0 right-0 lg:transform translate-x-4 -translate-y-4 mt-8 lg:mt-0 bg-yellow-100 py-4 px-8 rounded shadow-lg text-yellow-800 border-t-4 border-yellow-500"
+            >
+              <p>
+                <strong class="font-bold">
+                  We'll create BeginnerTailwind.com</strong
+                >,<span class="opacity-50">
+                  c'est le site sur lequel nous sommes maintenant.</span
+                >
+              </p>
+              <p>We'll do it without a single line of css</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
 
     <!-- === === === === === === === ===  -->
     <!-- overview === === === === === ===  === === === === === -->
     <!-- === === === === === === === ===  -->
+    <div class="bg-purple-700 pt-12 pb-32 relative">
+<!-- gray bar -->
+      <div class="absolute bottom-0 h-64 lg:h-44 inset-x-0 bg-gray-300"></div>
 
+      <div class="container relative mx-auto px-6 lg:px-0">
+        <h2 class="mb-10 text-6xl font-bold text-purple-100">
+          Writing CSS is tough stuff!
+        </h2>
+
+        <div class="flex space-x-16">
+          <!-- Left column -->
+          <div
+            class="bg-white space-y-10 w-2/3 p-16 shadow-2xl rounded-lg text-gray-800 text-lg leading-relaxed"
+          >
+            <p>
+              Tailwind makes writing CSS easier and lets us customize our
+              designs faster than any other CSS framework. If you want a CSS
+              framework that has pre-built components, then Tailwind may not be
+              for you. If you want a CSS framework that lets you design quickly
+              and customize your site, then
+              <strong class="text-teal-600 font-bold"
+                >Tailwind is gonna be a lot of fun</strong
+              >.
+            </p>
+            <p>
+              After using Bulma to build
+              <a href="#" class="hover:underline text-blue-500">Scotch.io</a>,
+              my CSS files became littered with my own
+              <code
+                class="inline-block text-xs px-1 bg-gray-200 text-red-700 font-mono"
+                >!important</code
+              >classes to override the framework's styles. Tailwind doesn't have
+              the
+              <code
+                class="inline-block text-xs px-1 bg-gray-200 text-red-700 font-mono"
+                >!important</code
+              >
+              problem since all our elements are designed on the fly.
+              <strong class="font-bold">Important Note:</strong> Tailwind lets
+              us design quickly, but this doesn't mean that you don't need CSS
+              knowledge however. To use Tailwind, you need to have a good
+              understanding of CSS properties. In this course,
+              <strong class="font-bold"
+                >we will learn Tailwind and we'll also learn CSS
+                concepts</strong
+              >
+              to create good looking designs.
+              <strong class="font-bold"
+                >Tailwind is the ultimate CSS shorthand</strong
+              >, but we still need to learn the CSS, which we'll do in this
+              course.
+            </p>
+            <p class="italic relative text-3xl">
+              <span
+                class="absolute top-0 left-0 text-6xl transform -translate-x-7 -translate-y-5 text-purple-600 opacity-50 font-mono scale-150"
+                >"</span
+              >
+              This isn't just a Tailwind course. This is also a "learn how to
+              design with CSS" course.
+            </p>
+            <p>
+              The hardest things about learning Tailwind is memorizing the
+              classes and also knowing which classes go well together. We'll be
+              writing a lot of Tailwind in this course so that the repetition
+              will help us commit Tailwind classes to memory.
+            </p>
+          </div>
+
+          <!-- right column -->
+          <div class="flex-grow space-y-4 text-lg italic">
+            <div class="p-10 rounded-lg bg-purple-800 text-purple-100">
+              What classes should I use ?
+            </div>
+            <div class="p-10 rounded-lg bg-purple-800 text-purple-100">
+              How do I make things look goog ?
+            </div>
+            <div class="p-10 rounded-lg bg-purple-800 text-purple-100">
+              My desgins looks basics ?
+            </div>
+            <div class="p-10 rounded-lg bg-purple-800 text-purple-100">
+              Responsive
+            </div>
+            <div class="p-10 rounded-lg bg-purple-800 text-purple-100">
+              typography
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- === === === === === === === ===  -->
     <!-- about me === === === === === ===  === === === === === -->
     <!-- === === === === === === === ===  -->
