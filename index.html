@@ -130,7 +130,9 @@
     <!-- === === === === === === === ===  -->
     <div class="bg-purple-700 lg:pt-12 pb-32 relative">
       <!-- gray bar -->
-      <div class="absolute bottom-0 h-64 lg:h-44 inset-x-0 bg-gray-300"></div>
+      <div
+        class="hidden lg:inline-block absolute bottom-0 h-64 lg:h-44 inset-x-0 bg-gray-300"
+      ></div>
 
       <div class="container relative mx-auto px-6 lg:px-0">
         <h2 class="mb-10 text-4xl lg:text-6xl font-bold text-purple-100">
@@ -393,60 +395,80 @@
     <div class="py-24 bg-gray-300">
       <div class="container mx-auto px-6 lg:px-0">
         <div class="mb-8">
-          <h2 class="mb-2">What we'll build in this course</h2>
-          <p>
+          <h2 class="mb-2 text-5xl text-gray-800 text-center">
+            What we'll build in this course
+          </h2>
+          <p class="text-center text-xl">
             These components are thinds you'll have to create in every project.
           </p>
         </div>
 
-        <div class="sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 space-y-8 sm:space-y-0 gap-5">
-          <div class="flex shadow-xl ">
-            <div class="flex justify-center items-center w-1/3 bg-red-500 rounded-l-lg">
-            😍
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 space-y-8 sm:space-y-0 gap-5"
+        >
+          <div class="flex shadow-xl">
+            <div
+              class="flex justify-center items-center w-1/3 bg-red-500 rounded-l-lg"
+            >
+              😍
+            </div>
+            <div class="flex-grow p-4 bg-white rounded-r-lg">Buttons</div>
           </div>
-          <div class="flex-grow p-4 bg-white rounded-r-lg">Buttons</div>
+          <div class="flex shadow-xl">
+            <div
+              class="flex justify-center items-center w-1/3 bg-purple-500 rounded-l-lg"
+            >
+              😍
+            </div>
+            <div class="flex-grow p-4 bg-white rounded-r-lg">Cards</div>
           </div>
-          <div class="flex shadow-xl ">
-            <div class="flex justify-center items-center w-1/3 bg-purple-500 rounded-l-lg">
-            😍
+          <div class="flex shadow-xl">
+            <div
+              class="flex justify-center items-center w-1/3 bg-amber-500 rounded-l-lg"
+            >
+              😍
+            </div>
+            <div class="flex-grow p-4 bg-white rounded-r-lg">Forms</div>
           </div>
-          <div class="flex-grow p-4 bg-white rounded-r-lg">Cards</div>
+          <div class="flex shadow-xl">
+            <div
+              class="flex justify-center items-center w-1/3 bg-rose-500 rounded-l-lg"
+            >
+              😍
+            </div>
+            <div class="flex-grow p-4 bg-white rounded-r-lg">Header</div>
           </div>
-          <div class="flex shadow-xl ">
-            <div class="flex justify-center items-center w-1/3 bg-amber-500 rounded-l-lg">
-            😍
+          <div class="flex shadow-xl">
+            <div
+              class="flex justify-center items-center w-1/3 bg-cyan-500 rounded-l-lg"
+            >
+              😍
+            </div>
+            <div class="flex-grow p-4 bg-white rounded-r-lg">Navigation</div>
           </div>
-          <div class="flex-grow p-4 bg-white rounded-r-lg">Forms</div>
+          <div class="flex shadow-xl">
+            <div
+              class="flex justify-center items-center w-1/3 bg-blue-500 rounded-l-lg"
+            >
+              😍
+            </div>
+            <div class="flex-grow p-4 bg-white rounded-r-lg">Hero</div>
           </div>
-          <div class="flex shadow-xl ">
-            <div class="flex justify-center items-center w-1/3 bg-rose-500 rounded-l-lg">
-            😍
+          <div class="flex shadow-xl">
+            <div
+              class="flex justify-center items-center w-1/3 bg-green-500 rounded-l-lg"
+            >
+              😍
+            </div>
+            <div class="flex-grow p-4 bg-white rounded-r-lg">Grids</div>
           </div>
-          <div class="flex-grow p-4 bg-white rounded-r-lg">Header</div>
-          </div>
-          <div class="flex shadow-xl ">
-            <div class="flex justify-center items-center w-1/3 bg-cyan-500 rounded-l-lg">
-            😍
-          </div>
-          <div class="flex-grow p-4 bg-white rounded-r-lg">Navigation</div>
-          </div>
-          <div class="flex shadow-xl ">
-            <div class="flex justify-center items-center w-1/3 bg-blue-500 rounded-l-lg">
-            😍
-          </div>
-          <div class="flex-grow p-4 bg-white rounded-r-lg">Hero</div>
-          </div>
-          <div class="flex shadow-xl ">
-            <div class="flex justify-center items-center w-1/3 bg-green-500 rounded-l-lg">
-            😍
-          </div>
-          <div class="flex-grow p-4 bg-white rounded-r-lg">Grids</div>
-          </div>
-          <div class="flex shadow-xl ">
-            <div class="flex justify-center items-center w-1/3 bg-orange-500 rounded-l-lg">
-            😍
-          </div>
-          <div class="flex-grow p-4 bg-white rounded-r-lg">Newsletter</div>
+          <div class="flex shadow-xl">
+            <div
+              class="flex justify-center items-center w-1/3 bg-orange-500 rounded-l-lg"
+            >
+              😍
+            </div>
+            <div class="flex-grow p-4 bg-white rounded-r-lg">Newsletter</div>
           </div>
         </div>
       </div>
@@ -455,6 +477,58 @@
     <!-- pricing === === === === === ===  === === === === === -->
     <!-- === === === === === === === ===  -->
 
+    <div class="relative py-32 bg-blue-400">
+      <!-- Gray box for the top -->
+      <div class=" absolute inset-x-0 h-48 top-0 bg-gray-300"></div>
+
+      <div
+        class="relative container mx-auto lg:px-0 px-6 flex flex-col lg:flex-row justify-center items-center lg:space-x-8
+        space-y-4 lg:space-y-0"
+      >
+        <!-- Left box -->
+        <div class="lg:w-1/3 order-2 lg:order-1 text-center lg:text-right space-y-2 text-xl text-white pt-12">
+          <p><strong class="font-bold">75 videos </strong>at a smooth pace</p>
+          <p>
+            <strong class="font-bold">9.25 hours </strong>of learning + building
+          </p>
+          <p><strong class="font-bold">Source code</strong> and CodePens</p>
+        </div>
+
+
+
+        <!-- pricing box -->
+        <div
+          class="relative lg:w-1/3 w-2/3 order-1 lg:order-2 text-center p-8 text-gray-800 text-lg rounded shadow-2xl border-8 bg-white border-purple-700 space-y-8 hover:scale-105 transition duration-500 group"
+        >
+
+                <!-- Showoff -->
+        <div class="absolute top-0 inset-x-0 transform -translate-y-full flex justify-center items-end space-x-8">
+          <div class="w-2 h-16 mb-8 transform origin-bottom -rotate-45 bg-red-600 rounded"></div>
+          <div class="w-2 h-24 mb-8 bg-amber-600 rounded"></div>
+          <div class="w-2 h-16 mb-8 transform origin-bottom rotate-45 bg-teal-600 rounded"></div>
+        </div>
+          <h4 class="text-gray-600 text-sm">Start Tailwind<i>-ing</i></h4>
+          <div class="text-5xl text-purple-800 font-bold">
+            <span class="opacity-25">$</span>47
+          </div>
+          <a
+            href="#"
+            class="block p-3 bg-gradient-to-br from-yellow-400 via-amber-400 to-orange-400 rounded text-amber-100 group-hover:shadow-2xl group-hover:text-amber-900 group-hover:shadow-gray-700 transition duration-500"
+            >Buy the Course</a
+          >
+        </div>
+        <!-- right box -->
+        <div class="lg:w-1/3 order-3 text-center lg:text-left text-xl space-y-2 text-white pt-12">
+          <p>
+            Use the code for <strong class="font-bold">your projects</strong>
+          </p>
+          <p>
+            Access to <strong class="font-bold">Discord</strong> for support
+          </p>
+          <p>Lifetime <strong class="font-bold">refund guarantee</strong></p>
+        </div>
+      </div>
+    </div>
     <!-- === === === === === === === ===  -->
     <!-- faq === === === === === ===  === === === === === -->
     <!-- === === === === === === === ===  -->
